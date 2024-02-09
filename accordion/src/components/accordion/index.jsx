@@ -5,7 +5,7 @@
 import React from 'react'
 import { useState } from 'react';
 import data from './data';
-
+import './style.css'
 
 function Accordian() {
     const [selected, setSelected] = useState(null)
